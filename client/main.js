@@ -20,3 +20,7 @@ Template.hello.events({
     instance.counter.set(instance.counter.get() + 1);
   },
 });
+
+setTimeout(() => {
+  import('meteor/compile-test/indirection.js').then(m=>console.log(m));
+}, 5000);

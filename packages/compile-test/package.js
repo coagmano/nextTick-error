@@ -14,8 +14,8 @@ Package.onUse(function(api) {
   api.versionsFrom('1.8.0.1');
   api.use('ecmascript');
   api.use('coagmano:stylus');
-  api.addFiles(['iamdumb.js'], 'client')
-  api.mainModule('compile-test.js', 'client', { lazy: true });
+  api.addFiles(['whitelist.js'], 'client')
+  api.mainModule('main.js', 'client', { lazy: true });
 });
 
 Package.onTest(function(api) {
