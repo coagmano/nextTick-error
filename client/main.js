@@ -21,6 +21,6 @@ Template.hello.events({
   },
 });
 
-setTimeout(() => {
-  import('meteor/compile-test/indirection.js').then(m=>console.log(m));
-}, 5000);
+// setTimeout(() => {
+//   import('meteor/compile-test/indirection.js').then(m=>console.log(m));
+// }, 5000);
